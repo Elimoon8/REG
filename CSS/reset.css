@@ -1,0 +1,47 @@
+html
+
+<head>
+  <meta charset="utf-8" />
+  <title>formulario control asistencia CACTUS</title>
+</head>
+
+<body>
+  <center>
+    <form action="MAILTO:elizabethcastellanos@ustadistancia.edu.co" method="post" enctype="text/plain">
+      <table border="1" width="70%">
+        <tbody>
+          <tr>
+            <td>Facultad</td>
+            <td>
+              <input Facultad="facultad" size="100" maxlength="100" type="text"> </td>
+          </tr>
+          <tr>
+            <td>Espacio Académico</td>
+            <td>
+              <input name="Asignatura" size="50" maxlength="80" type="text"> </td>
+          </tr>
+
+          <tr>
+            <td>Sede:</td>
+            <td>
+              <select name="Sede">
+            <option value="aquinate">Aquinate</option>
+            <option value="Total">Edificio_total</option>
+            <option value="angelico">DR_Angelico</option>
+            <option value="Gregorio">Gegorio_XIII</option>
+            <option value="santodomingo">Santo_Domingo</option>
+            <option value="campus">Campus</option>
+            <option value="Labotatorios">Laboratorios_ETM</option>
+            <option value="Paltaforma">Plataforma</option>
+          </select> </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <input name="enviar" value="Enviar" type="submit">
+        <input name="borrar" value="Borrar" type="reset">
+      </p>
+    </form>
+</body>
+
+</html>
